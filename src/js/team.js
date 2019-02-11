@@ -42,7 +42,7 @@ class Team {
    * @return {Array} the team members array
    */
   toArray() {
-    return Array.from(this.characters);
+    return [...this.characters];
   }
 }
 
